@@ -4,7 +4,7 @@
             {{ __('post') }}
         </h2>
     </x-slot>
-    
+
     <div class="container bg-danger my-4">
         <div class="container d-flex justify-center align-iten-center">
             <h1>Post Here</h1>
@@ -24,10 +24,7 @@
             <div class="container my-4 d-flex justify-center align-iten-center ">
             <button type="submit" class="btn btn-primary" value="post">post</button>
             </div>
-
-
         </form>
-       
     </div>
 
     @if (session()->has('status')) {{session('status')}} @endif

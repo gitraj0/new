@@ -18,9 +18,4 @@ Route::get('/post/delete/{id}',[postcontroller::class,'destroy'])->name('post_de
 
 });
 
-
-// Route::get('/post',[postcontroller::class,'index'])->middleware(['auth', 'verified'])->name('post_index');
-// Route::post('/post',[postcontroller::class,'create'])->middleware(['auth', 'verified'])->name('post_create');
-// Route::get('/dashboard',[Dashboard::class,'show_post'])->middleware(['auth', 'verified'])->name('dashboard');
-
 require __DIR__.'/auth.php';

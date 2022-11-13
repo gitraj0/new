@@ -11,7 +11,6 @@ class homecontroller extends Controller
     public function show_post(){
         $posts = post::all();
         $posts = post::paginate();
-
         return view('home',['posts'=>$posts]);
     }
 }

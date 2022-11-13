@@ -27,8 +27,6 @@
     
         </form>
     </div>
-
-
     @if (session()->has('status'))
     {{session('status')}}
         
